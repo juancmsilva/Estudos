@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    color:  #0000ff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial;
+    text-align: justify; 
+    line-height: 30px;
+}
+

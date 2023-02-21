@@ -1,0 +1,39 @@
+--------------------------------------------------------------------------------
+Aula01:
+
+text-align: justify; deixa os textos perfeitamente alinhados um embaixo do outro
+text-decoration: line-trough; deixa um risco no meio da palavra
+text-decoration: overline; deixa um risco acima da palavra
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Aula02:
+
+text-transform: uppercase; deixa o texto com letras maiúsculas
+text-transform: lowercase; deixa o texto com letras minusculas
+
+letter-spacing: 10px; define o espaçamento de uma letra e outra
+word-spacing:20px; define o espaçamento de uma palavra e outra
+line-height:40px; define o espaçamento das linhas
+
+text-shadow: 0px 2px 3px red; sombra do texto 
+formatação: espaçamento; esquerda, cima e densidade da sombra e cor
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Aula05:
+
+colspan para mesclar linhas 
+
+thead para o cabaçalho da tabela 
+tbody para o corpo da tabela
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Aula10:
+
+label serve para escrever dentro de um formulário e priorizar o id ao clicar na frase que contem o mesmo for
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Aula15:
+input type hidden esconde do usuário e retorna informações, como, qual país ele está
+
+--------------------------------------------------------------------------------

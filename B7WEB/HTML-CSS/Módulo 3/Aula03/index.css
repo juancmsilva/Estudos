@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    font-size: 17px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Mynerve', cursive;
+}

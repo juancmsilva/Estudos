@@ -1,0 +1,10 @@
+------------------------------------------------
+<em> para itálico 
+<strong> negrito
+<del> riscar palavra
+<small> diminuir o texto
+<sup> diminui o texto e eleva 
+<sub> diminui o texto e deixa ele no canto inferior
+<mark> marca texto
+------------------------------------------------
+

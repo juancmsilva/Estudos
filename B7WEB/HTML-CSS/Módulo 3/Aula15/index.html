@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Input type hidden</title>
+</head>
+
+<body>
+    <form method="GET">
+        <input type="hidden" name="country" id="br">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro nome: <br>
+                <input type="text" name="name" required minlength="2" maxlength="10">
+            </label> <br>
+            <label>
+                Último nome: <br>
+                <input type="text" name="lastname" required minlength="2" maxlength="10">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>
+                Nome da empresa: <br>
+                <input type="text" name="company" required minlength="2" maxlength="30">
+            </label> <br>
+            <label>
+                Cargo: <br>
+                <input type="text" name="jobtitle" required minlength="2" maxlength="20">
+            </label> <br>
+        </fieldset>
+        <button>Cadastrar</button>
+    </form>
+</body>
+
+</html>
