@@ -1,0 +1,69 @@
+----------------------------------------------------------
+Aula01:
+
+Não são todas as propriedades que herdam
+para aselecionar um herdeiro, devemos selecionar a tag que vamos atacar e em seguida a tag filho (que se encontra dentro da tag), como no exemplo da Aula01
+----------------------------------------------------------
+----------------------------------------------------------
+Aula02:
+
+O CSS lê códigos de cima para baixo, logo a última definição que damos a um elemento, será o resultado final.
+
+quanto mais específico for o elemento, mais vantagem ele terá, pois, está filtrando melhor a propriedade a ser aplicada
+----------------------------------------------------------
+----------------------------------------------------------
+Aula03:
+
+O CSS lê primeiro a estilo externo, depois o style e por último o inline
+----------------------------------------------------------
+----------------------------------------------------------
+Aula04:
+
+Medidas absolutas, não sofrem interferência de outros elementos da estrutura do site
+
+pixels é uma medida absoluta, porém, mais utilizadas para fonte
+
+in também é uma unidade de medida absoluta, in são polegadas
+
+cm e mm também podem serem usados 
+----------------------------------------------------------
+----------------------------------------------------------
+Aula05:
+
+medida relativas:
+em é uma medida baseada no font-size do pai. calculando em x fonte pai.
+exemplo: font-size:20; 10em é igual a 20x10, que da 200 pixels
+
+rem o 'R' significa root. rem é baseado no primeiro elemento da estrututa ou seja, o próprio HTML
+ex: html{ font-size:10px; } passamos a calcular 3rem como 10x3
+
+o padrão de 1 rem espicificar o tamnho é 16px, por padrão, o HTML tem 16px
+----------------------------------------------------------
+----------------------------------------------------------
+Aula06:
+
+porcentagem nem sempre pega o espaço do tamanho da tela e sim, corresponde, com o espaço disponível para ela
+
+ex é relativo ao tamanho do X da fonte utilizada
+
+ch é utilizado somente em fontes mono-space, que contém a mesma largura
+----------------------------------------------------------
+----------------------------------------------------------
+Aula07:
+
+Viewport é o espaço visível ao usuário.
+
+vh é o espaço da altura visível ao usuário. espaço disponível da tela inteira
+
+vw serve para a largura
+----------------------------------------------------------
+----------------------------------------------------------
+Aula08: 
+
+inherit é o mesmo que pedir para herdar a propriedade do item acima
+----------------------------------------------------------
+----------------------------------------------------------
+Aula09:
+
+FF vermelho FF Verde FF AZUL
+----------------------------------------------------------

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+.container {
+    color: #ff0000;
+}
+
+/*body .container {
+    color: green;
+} */
+
+div {
+    color: blue;
+}

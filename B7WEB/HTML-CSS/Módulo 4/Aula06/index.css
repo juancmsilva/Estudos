@@ -1,0 +1,11 @@
+
+.box {
+    background-color: #999;
+    width: 300px;
+}
+
+.box-interno {
+    background-color: #333;
+    color: #FFF;
+    width: 4ch;
+}
