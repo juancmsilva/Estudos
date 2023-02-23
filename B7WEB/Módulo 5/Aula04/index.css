@@ -1,0 +1,20 @@
+table, td {
+  border: 2px solid black;
+}
+body {
+     background-color: #ccc;
+    }
+
+    h1 {
+      font-size: 40px;
+      font-weight:bold;
+    }
+
+@media only print {
+  h1 {
+   display: none;
+  }
+  table, td {
+    border: 0;
+  }
+}

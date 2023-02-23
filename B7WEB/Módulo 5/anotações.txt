@@ -1,0 +1,112 @@
+------------------------------------------------
+tamanhos de adaptação de layout 
+320
+480
+760
+960
+1200
+1600
+------------------------------------------------ 
+------------------------------------------------
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+serve para adaptar às páginas 
+------------------------------------------------
+------------------------------------------------
+Aula01: 
+
+tag semântica para adicionar imagens é a tag picture
+------------------------------------------------
+------------------------------------------------
+Aula02:
+
+object-fit serve para alterar a formatação da imagem, sem distorce-lás
+
+object-fit: fill; padrão
+object-fit: contain; diminui a imagem sem distorcer
+object-fit: cover; corta a imagem, para não distorcer
+object-fit: none; corta a imagem
+object-fit: scale-down; similar a contain
+------------------------------------------------
+------------------------------------------------
+Aula04:
+
+@media only print; é usado para quando for imprimir uma página
+@media only screen; é usado para mostrar conteúdos ao imprimir a tela
+------------------------------------------------
+------------------------------------------------
+Aula05:
+
+orientation serve para dizer se a tela está vertical ou horizontal
+
+@media (orientation: landscape) está na horizontal
+@media (orientation: portrait) está na vertical
+------------------------------------------------
+------------------------------------------------
+Aula06:
+
+aspect-radio é usado para mudar as propriedades de acordo com a escala de tamanho do navegador que o usuário está acessando a página.
+
+aspect-ratio: 1/1; serve para quando as proporções estiverem iguais
+
+min-aspect-ratio: 4/2; a largura deve ser o dobro do tamanho da altura
+
+@media (max-aspect-ratio: 1/2); a altura deve ter o tamanho da largura
+------------------------------------------------
+------------------------------------------------
+Aula07:
+
+Para criar variáveis no CSS
+:root {
+    --bg-color: #000;
+    --bg-second: #444;
+    --font-color: white;
+}
+
+para declarar  var(--bg-second)
+
+Também posso criar assim, dentro de outros atributos 
+.container {
+    --cinza: grey;
+    color: var(--font-color)
+}
+mas ela irá funcionar somente dentro do container
+
+color: var(--font-color, #0000ff); colocando a vírgula, serve para substituir quando não houver a variável
+------------------------------------------------
+------------------------------------------------
+Aula08:
+
+root dentro do media, para trocar tamanhos, cores e etc
+@media (max-width:450px) {
+    :root {
+        font-size: 15px;
+    }
+}
+------------------------------------------------
+------------------------------------------------
+Aula09:
+
+medida para hd e full hd 56.25%
+------------------------------------------------
+------------------------------------------------
+Aula10:
+
+Como declarar var min e max
+img {
+    width: max(50%, 300px);
+    width: min(50%, 300px);
+}
+max serve para a imagem parar de se adaptar quando tiver 50% de 300, que é 600px, quando chegar em 599px, a imagem não se adapta mais a tela
+
+min serve para o inverso
+------------------------------------------------
+------------------------------------------------
+Aula11:
+
+como utilizar função calc
+.container {
+    width: calc(100% - 20px);
+
+calc serve para a tela se adaptar, sem perder os pixels
+------------------------------------------------
