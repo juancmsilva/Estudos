@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+
+nav { 
+    height: 50px;
+    background-color: #9999;
+}
+li {
+    display: inline;
+}
+
+footer {
+    height: 100px;
+    background-color: #ccc;
+}

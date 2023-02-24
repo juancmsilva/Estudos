@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+.exemplo {
+    width:150px;
+    height:150px ;
+    background-color: #00ff00;
+    transition: 1s linear;
+}
+
+.exemplo:hover {
+    background-color: grey;
+}

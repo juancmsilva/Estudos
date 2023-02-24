@@ -1,0 +1,11 @@
+figure {
+    margin: 0;
+    padding: 5px;
+}
+
+figcaption {
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}

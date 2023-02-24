@@ -1,0 +1,165 @@
+---------------------------------------
+Aula01:
+
+header para cabeçalho
+footer rodapé
+nav para navegação
+
+nav quase sempre é utilizado 50px de altura
+display: inline; para alinhar itens na vertical
+---------------------------------------
+---------------------------------------
+Aula02:
+
+section serve para separar assuntos.
+
+article conteúdo principal do site.
+
+Aside serve para ser um conteúdo secundário, serve para conteúdos laterais.
+
+Time é usado para data ou tempo <time datatime="2000-09-24> para dizer qual dia do meu aniversário.
+---------------------------------------
+---------------------------------------
+Aula03:
+
+Internet explorer 8 não idêntifica tags não reconhecidas.
+---------------------------------------
+---------------------------------------
+Aula05:
+
+data- alguma coisa, você pode usar para fazer identificações internas
+pode ser guardada em qualquer tag
+
+---------------------------------------
+---------------------------------------
+Aula08:
+
+placeholder serve para prever campos no formulário 
+--------------------------------------
+--------------------------------------
+Aula:09
+
+Autofocus serve para entrar na página pronto para digitar
+--------------------------------------
+--------------------------------------
+Aula10:
+
+size serve para adaptar o tamanho de um formulario ex size="10" aparecerá 10 caracteres
+maxlength serve para limitar o tanto de caracteres
+--------------------------------------
+--------------------------------------
+autocomplete serve para auto completar dados de uma página
+autocomplete="off" não irá mais aparecer
+--------------------------------------
+--------------------------------------
+Aula11:
+
+criando degraê
+background: linear-gradient(red, blue, green);
+background: linear-gradient(60deg, blue, green); para definir em graus
+--------------------------------------
+--------------------------------------
+Aula12:
+
+Para criar animação
+@keyframes exemplo {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: grey;
+    }
+    100%{
+        background-color: #00ff00;
+    }
+}
+
+para executar 
+
+.exemplo {
+    width:150px;
+    height:150px ;
+    background-color: #00ff00;
+    animation-name: exemplo;
+    animation-duration: 4s;
+}
+
+ animation-delay: 2s; começa animação após 2 segundos
+ animation-iteration-count:infinite ; define quantidade de vezes 3 ou infinte , por exemplo
+--------------------------------------
+--------------------------------------
+Aula13:
+Para usar transition 
+
+.exemplo {
+    width:150px;
+    height:150px ;
+    background-color: #00ff00;
+    transition: 1s linear;
+}
+linear serve para ele não alterar a velocidade do inicio ao fim
+--------------------------------------
+--------------------------------------
+Cada navegador tem uma máquina interpretação HTML e CSS
+
+IE = Trident 
+Edge = EdgeHTML
+Firefox = Gecko
+Opera = Webkit
+Safari = Webkit
+Chrome = Webkit 
+--------------------------------------
+--------------------------------------
+Aula14:
+
+word-wrap serve para quebrar palavras, para não extourar o texto
+
+word-wrap:normal ; padrão
+--------------------------------------
+--------------------------------------
+Aula16:
+
+tags de descrição:
+
+dl significa description list
+dt é o título do item
+dd é a descrição do item
+--------------------------------------
+--------------------------------------
+Aula 17:
+
+tags para citações
+
+para textos pequenos, utilizar a tag q
+para textos grandes, utilizar blockquote
+
+o atributo cite é para otimizar os motores de busca e mostrar qual site faz a citação
+--------------------------------------
+--------------------------------------
+Aula18:
+
+uma das formas semânticas de montar um site, na aula 18
+
+A tag main pode-se ser utilizada somente uma vez por página, como conteúdo principal da página
+
+Conteúdo principal, é o conteúdo que não pode-se ter em outras páginas, como barras de navegação e barras lateral
+
+tag main pode ser colocada dentro de uma section, mas não de outras tags, como article, aside, footes, nav, header.
+--------------------------------------
+--------------------------------------
+Aula19:
+
+A tag address é para dizer aos motores de busca, que aquela parte é uma sessão de informações de uma empresa 
+--------------------------------------
+--------------------------------------
+Aula20:
+
+Tag figure serve para fotos em blog
+figcaption serve para adicionar legendas em foto
+--------------------------------------
