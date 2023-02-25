@@ -1,0 +1,55 @@
+---------------------------------------
+Aula01:
+
+float: left; deixa os itens flutuando lado a lado
+
+flexbox serve para armozinar posição dos itens
+
+elemento container serve para controlar todos os elementos da div
+
+display: none; para não mostrar a div
+display: block; para mostrar
+display: inline; posiciona itens um ao lado do outro
+display: flex; diz que o posicionamento será através do flexbox e por padrão posiciona conteúdo lado a lado, conforme tamanho do conteúdo que contém dentro dele
+
+flex-direction: row; padrão
+flex-direction: row-reverse; em forma de linha, na parte direita, com ordem da direita para esquerda
+flex-direction: column; deixa itens um abaixo do outro
+flex-direction: column-reverse; a exibição é de baixo para cima
+
+flex: 1; posiciona itens lado a lado com o mesmo tamanho
+flex: 1; serve para dividir espaços iguais
+exemplo: grupo 1, tem 2 pessoas, então o espaço será dividido entre 2 igualmente entre eles. 
+
+caso use 
+flex: 2; ele indicará que a div será o dobro do tamanho do flex1 e o flex 1 se adaptará em partes iguais para suprir o flex2 e assim sucessivamente.   
+---------------------------------------
+---------------------------------------
+Aula02:
+
+flex-wrap: wrap; serve para alinhar itens na linha de baixo, casa não caiba na linha de cima
+flex-wrap: nowrap; padrão
+
+flex-flow: row wrap; especifica o flex direction e o flex-wrap na mesma propriedade
+
+justify-content: center; para alinhar ao centro da dela. Serve para o alinhamento vertifcal
+justify-content: flex-start; alinha o flex na esquerda
+justify-content: flex-end; alinha o flex na direita
+justify-content: space-around; alinha os itens com o mesmo espaçamento
+justify-content: space-between; alinha os itens com maior espaçamento entre eles
+justify-content: space-evenly; alinha os itens com o mesmo espaçamento no centro e borda
+
+align-items: center; alinha os itens na coluna
+align-items: flex-end; coloca o item no canto inferior
+---------------------------------------
+---------------------------------------
+Aula03:
+
+order: 1; deixa o item na ordem que vc especificar
+por padrão, os itens sempre tem a order 0
+align-content: flex-end; align content serve para mover toda a div com mais de um conteúdo e possui o warp.
+---------------------------------------
+
+Aula04:
+
+list-style: none; remove itens do link
