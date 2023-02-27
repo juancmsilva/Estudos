@@ -1,0 +1,46 @@
+-----------------------------------
+Para selecionar atributos como required
+devemos colocar [required] no css
+
+para selecionar o type do input
+input[type=text]
+-----------------------------------
+-----------------------------------
+Para manter uma div em branco
+div:empty { }
+-----------------------------------
+-----------------------------------
+irá selecionar somente a primeira letra de todos os parágrafos
+p::first-letter 
+
+p::first-line sleciona a primeira linha
+-----------------------------------
+-----------------------------------
+first-child para selecionar primeiro e últimi elemento
+-----------------------------------
+-----------------------------------
+nth-child [2] para selecionar um elemento
+
+div:nth:last-child(3) { color: yellow }:
+Irá pintar o terceiro item de sua lista, de baixo para cima.
+-----------------------------------
+-----------------------------------
+div:before {
+    content: "=>"
+} serve para adicionar um item em css, não selecionável em páginas
+
+before e after são para criar alguns efeitos avançados
+-----------------------------------
+-----------------------------------
+transform:scale[1] serve para ampliar ou diminuir um elemento ao todo
+-----------------------------------
+-----------------------------------
+transform:rotate(30deg) serve para rotacionar o item em 30 graus
+-----------------------------------
+-----------------------------------
+box-sizing: content-box; o tamanho do elemento será correspondente ao tamanho do conteúdo. Esse é o padrão
+
+box-sizing: border-box; passa o tamanho especificado dos itens 
+-----------------------------------
+Rever aula 19
+-----------------------------------
