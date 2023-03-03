@@ -1,0 +1,116 @@
+------------------------------------------------------------
+Aula01:
+
+display: grid; serve para introduzir o css ao grid
+
+grid-template-columns: repeat(3, 1fr); serve para adicionar um template em colunas 
+------------------------------------------------------------
+------------------------------------------------------------
+Aula02:
+
+grid-column-gap: 10px; serve para adicionar margem entre as colunas 
+
+grid-row-gap: 10px; serve para adicionar margem entre as linhas 
+
+grid-gap: 10px; adiciona margem entre as linhas e as colunas
+------------------------------------------------------------
+------------------------------------------------------------
+Aula03:
+
+O grid é como se fosse uma tabela. 
+
+grid-template-columns: 100px 200px 100px 100px; para controlar o tamanho dos itens em colunas
+grid-template-columns: auto; coluna automática
+
+grid-template-rows: 100px 200px; para definir a altura da linha 
+------------------------------------------------------------
+------------------------------------------------------------
+Aula04:
+
+FR é uma unidade criada para o grid e, representa uma fração do espaço disponível no display do grid. 
+logo, ele acompanhará o espaço do display
+
+grid-template-columns: 1fr 1fr 1fr 1fr; quanto mais fr's tiver, mais ele ficará menor, para que caiba mais itens ao seu lado
+------------------------------------------------------------
+------------------------------------------------------------
+Aula05:
+
+grid-template-columns: repeat(3, 100); serve para indicar a quantidade de repetições.
+
+Seria o mesmo que utilizar 
+grid-template-columns: 100px 100px 100px;
+
+No caso, posso utilizar 
+grid-template-columns: repeat(3, 1fr); para deixar todas as colunas adaptadas ao mesmo tamanho
+
+grid-template-columns: repeat(auto-fill, 300px); serve para definir linhas automáticas, até encerrar as divs 
+------------------------------------------------------------
+------------------------------------------------------------
+Aula06:
+
+grid-auto-rows: 200px; todas as linhas terão 200px
+grid-auto-rows: minmax(59px, auto); deixa o minimo de uma linha 59px e o máximo será proporcional ao conteúdo da div
+
+grid-auto-columns: minmax(59px, auto); se adapta da mesma forma que o row (linha) 
+
+também posso utilizar assim 
+grid-template-columns: repeat(7, minmax(100px,auto));
+------------------------------------------------------------
+------------------------------------------------------------
+Aula08:
+
+.item1{
+    grid-column-start: 1; comece na coluna 1
+    grid-column-end: 2; e termine na coluna 2
+} 
+Caso eu coloque column-end: 3; ele irá terminar na coluna 3
+
+as definições se aplicam as linhas imáginárias de cada divisão de colunas ou linhas da div
+------------------------------------------------------------
+------------------------------------------------------------
+grid-column: 1 / 2; significa que o item vai da coluna 1 até a 2
+grid-row: 1 / 2; significa que o item vai da linha 1 até a 2
+------------------------------------------------------------
+------------------------------------------------------------
+Aula09:
+
+Resumo do grid-area
+1. grid-row-start
+2. grid-column-star
+3. grid-row-end
+4. grid-column-end
+-------------------------------------------------------------
+-------------------------------------------------------------
+Aula10:
+
+grid template
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "item1 item2"
+    "item3 item4"
+    ;
+}
+e nomear as divs usando grid-area
+.item1 {
+    grid-area: item1;
+}
+.item2 {
+    grid-area: item2;
+}
+.item3 {
+    grid-area: item3;
+}
+.item4 {
+    grid-area: item4;
+}
+
+"item1 item1" essa forma, o item 1 ocupará duas linhas e quanto mais item# tiver, mais colunas terá
+"item2 item3" 
+"item4 ." o ponto indica um campo vazio, ou seja, não tem mais nenhuma div para posicionar ali 
+
+"item1 item2" nessa forma o item pegará duas linhas 
+"item1 item3"
+-------------------------------------------------------------
+-------------------------------------------------------------
